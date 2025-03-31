@@ -555,28 +555,7 @@ footer{
        font-size: 20px;
    
    }
-   .hero{
-    padding: 20px 10px;
-    row-gap: 40px;
-   }
-   .hero2{
-    padding:20px 10px;
-   }
-   .hero3{
-    padding: 20px 10px;
-   }
-   .hero4{
-    padding: 20px 10px;
-   }
-   .hero5{
-    padding: 20px 10px;
-   }
-   .hero6{
-    padding: 20px 10px;
-   }
-   .hero-content{
-    text-align: center;
-   }
+   
    .hero-content h1{
        font-size: 18px;
    }
@@ -617,5 +596,27 @@ footer{
    justify-items: center;
    justify-content: center;
    gap: 20px;
+   }
+   .hero{
+    padding: 20px 10px;
+    row-gap: 40px;
+   }
+   .hero2{
+    padding:20px 10px;
+   }
+   .hero3{
+    padding: 20px 10px;
+   }
+   .hero4{
+    padding: 20px 10px;
+   }
+   .hero5{
+    padding: 20px 10px;
+   }
+   .hero6{
+    padding: 20px 10px;
+   }
+   .hero-content{
+    text-align: center;
    }
  }
