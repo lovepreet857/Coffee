@@ -555,25 +555,28 @@ footer{
        font-size: 20px;
    
    }
-   .hero1{
-    padding: 10px;
+   .hero{
+    padding: 20px 10px;
+    row-gap: 40px;
    }
    .hero2{
-    padding: 10px;
+    padding:20px 10px;
    }
    .hero3{
-    padding: 10px;
+    padding: 20px 10px;
    }
    .hero4{
-    padding: 10px;
+    padding: 20px 10px;
    }
    .hero5{
-    padding: 10px;
+    padding: 20px 10px;
    }
    .hero6{
-    padding: 10px;
+    padding: 20px 10px;
    }
-  
+   .hero-content{
+    text-align: center;
+   }
    .hero-content h1{
        font-size: 18px;
    }
@@ -584,7 +587,9 @@ footer{
    .mainugrid{
     grid-template-columns: 1fr;
    }
-   
+   .hero2-content{
+    row-gap: 30px;
+   }
  }
 
  @media (max-width:400px) {
@@ -609,6 +614,8 @@ footer{
    } 
    .footer1{
    display: grid;
+   justify-items: center;
+   justify-content: center;
    gap: 20px;
    }
  }
